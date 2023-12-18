@@ -23,8 +23,6 @@ module "eks" {
   vpc_id     = module.vpc.vpc_id
   subnet_ids = module.vpc.private_subnets
 
-  manage_aws_auth_configmap = true
-
 
   self_managed_node_groups = {
     node_group_1 = {

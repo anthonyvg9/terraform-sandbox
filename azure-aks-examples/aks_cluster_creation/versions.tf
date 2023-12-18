@@ -6,9 +6,6 @@ terraform {
     azuread = {
       source = "hashicorp/azuread"
     }
-    castai = {
-      source = "castai/castai"
-    }
   }
   required_version = ">= 0.13"
 }
